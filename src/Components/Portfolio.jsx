@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/developer_workspace.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A developer's workspace in a dark room writing some code";
 
 /**
  * Project list
@@ -31,28 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "iPhone Class Diagram",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A simple class diagram of the iPhone. Created using PlantUML. Following the video from Steve Jobs introducing the iPhone.",
+    url: "https://github.com/datdudu/iphone-class-diagram",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "My first pokedex",
+    description: "A very simple project to learn web development, constructing a pokedex using HTML, CSS and JS.",
+    url: "https://github.com/datdudu/pokedex-project",
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    description: "Created from Microsoft's Learn Student Amabassadors template. Using React and some CSS.",
+    url: "https://github.com/datdudu/my-simple-portifolio",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Catalog API",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A simple API to catalog items. Using some strategies to make the code more readable and easy to maintain.",
+    url: "https://github.com/datdudu/api-catalog",
   },
 ];
 
