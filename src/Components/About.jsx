@@ -34,7 +34,7 @@ const skillsList = [
   "Web development",
   "System development",
   "Unity Development",
-  "Sfotware Engineering",
+  "Software Engineering",
   "Group Working",
   "System Design",
 ];
